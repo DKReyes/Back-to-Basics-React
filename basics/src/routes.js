@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Chapter 1 - Index
 import Index from "./pages/index";
 
-
 export default function App() {
   return (
     <BrowserRouter>

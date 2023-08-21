@@ -1,9 +1,14 @@
+// Chapter One - Creating the Index
+// Adds the Button Component
+import Button from '../components/firstButton'
 
-// Chapter One - Creating 
 // Outputs the Page 
 const Index = () => {
     return (
-        <h1>Index</h1>
+        <>
+            <h1>Hello World!</h1>
+            <Button />
+        </>
     )
   };
   

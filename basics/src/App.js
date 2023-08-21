@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+// Chapter 1 - Added routes.js to app
+import Routes from './routes';
 
 function App() {
   return (
