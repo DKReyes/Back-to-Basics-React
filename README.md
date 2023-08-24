@@ -78,7 +78,27 @@ const [<variable>, <setVariable>] = useState(<variable type>);
 
 Next is useEffects.
 `useEffect` is useful for responding to changes in the lifecycle. It's used when executing code initally. when it gets updated, or when it's unmounted.
-I will 
+I will create a `useEffect` that will count on inital render. 
+```
+    useEffect(() => {
+        setTimeout(() => {
+            setCount((count) => count + 1);
+        }, 1000);
+    }, []);
+
+```
+This line of code will continue to count at a rate of 1000 ticks however, it stops on inital render due to useEffect's brackets which only activates once.
+The output should be 2 because on first render it will automattically unmount and remount every component. Thus activating twice on inital.
+
+Lastly, props.
+Props is short for properties and they are arguments that can be passed into components.
+They are passed through by HTML attributes.
+
+I will create a function called `Dog(props)` to declare this component to contain properties.
+```
+return <p>I'm a dog and my name is {props.name}.</p>
+```
+Inside I gave the dog properties a name. and when I call the dog component I apply a name to indicate the dog's name. eg `<Dog name='Danny' />`.
 
 ---
 ### Chapter 3 - Navbar, Layouts, Home Page
