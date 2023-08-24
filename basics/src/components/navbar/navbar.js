@@ -4,7 +4,6 @@ import { Outlet, Link } from 'react-router-dom';
 function Navbar() {
     return (
         <>
-            <Navbar></Navbar>
             <nav>
                 <ul>
                     <li>
@@ -21,6 +20,8 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
+
+            <Outlet />
         </>
     )
 };
