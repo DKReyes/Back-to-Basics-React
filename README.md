@@ -4,6 +4,7 @@ A website filled with basic knowledge on React. :+1:
 
 > Each Chapter will contain a comment in the code with their chapter and section. Other instructions and indication in this basic website will be noted in this README.md.*
 
+---
 ### Chapter 1 - React, Hello World, Pages, Routes, Components
 
 This chapter is the introduction and the most basic form of introduction to building a simple website.
@@ -56,3 +57,28 @@ The next final step is to add it to my page by importing the component to the pa
 >
 > Use the variable name (aka the smaller box) in your funtions and that is your imported item.
 `<VARIABLE NAME />`
+
+---
+### Chapter 2 - useState, useEffect, and Props
+
+This chapter will handle github Branches, what are useStates and useEffects and how do we use them.
+
+I will first make a branch in github to focus on the button functionality made in chapter 1.
+
+A state is a property that will contain the state variables for components. Similar to setting a variable being set, states can be updated with the `setState` function.
+I will take my button and make a `useState` hook to add state variables.
+- First I would import the useState from react.
+- Next I would create my first variable. (See code below)
+```
+const [<variable>, <setVariable>] = useState(<variable type>);
+```
+- In my case I want make this button display a message once it's been clicked. So I create a boolean state.
+- Next I want to be able to change the button's on and off once it's been clicked. I do this by adding const that handles event that changes setVariable to it's oppsite. (see code)
+- (Optional) Lastly, I created another function that only handles the display of text. This could also be done without making a function.
+
+Next is useEffects.
+`useEffect` is useful for responding to changes in the lifecycle. It's used when executing code initally. when it gets updated, or when it's unmounted.
+I will 
+
+---
+### Chapter 3 - Navbar, Layouts, Home Page
