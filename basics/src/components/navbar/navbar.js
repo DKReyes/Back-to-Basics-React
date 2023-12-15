@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import './navbar.css';
 
 function Navbar() {
     return (
@@ -17,6 +18,9 @@ function Navbar() {
                     </li>
                     <li>
                         <Link to="/login">Login</Link>
+                    </li>
+                    <li>
+                        <Link to="/index">Index</Link>
                     </li>
                 </ul>
             </nav>

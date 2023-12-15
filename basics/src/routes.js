@@ -12,7 +12,7 @@ export default function App() {
       <Routes>
         {/* This is the base page */}
         <Route path="/" element={<Layout />} />
-        
+          <Route path="index" element={<Index />} />
         
         <Route path="layout" element={<Layout />} />
       </Routes>
